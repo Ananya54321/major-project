@@ -26,6 +26,9 @@
                 },
                 "email": {
                   "example": "furever@gmail.com"
+                },
+                "password" : {
+                  "example" : "******"
                 }
               }
             }
