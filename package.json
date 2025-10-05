@@ -8,6 +8,10 @@
     "user-ui" : "npx nx run-many --target=dev --all --projects=user-ui"
   },
   "private": true,
+  "overrides": {
+    "@swc/core" : "~1.5.7",
+    "esbuild" : "^0.25.10"
+  },
   "dependencies": {
     "@prisma/client": "^6.16.2",
     "axios": "^1.12.2",
@@ -65,7 +69,7 @@
     "@types/react-dom": "19.0.0",
     "@types/swagger-ui-express": "^4.1.8",
     "autoprefixer": "10.4.13",
-    "esbuild": "^0.19.2",
+    "esbuild": "^0.25.10",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
     "jest": "^30.0.2",

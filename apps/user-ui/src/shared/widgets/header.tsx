@@ -10,10 +10,12 @@ const Header = () => {
                 </Link>
             </div>
             <div className='w-[50%] relative'>
-                <input type="text" name="" id="" placeholder='Search for products...' className='' />
+                <input type="text" name="" id="" placeholder='Search for products...' className='w-full px-4 font-poppins font-medium border-[2.5px] border-[#3489ff] outline-none h-[55px]' />
+                <div className='w-[60%] cursor-pointer flex items-center justify-center h-[55px] bg-[#3489ff] absolute top-0 right-0'>
+                    
+                </div>
             </div>
         </div>
-      header
     </div>
   )
 }
